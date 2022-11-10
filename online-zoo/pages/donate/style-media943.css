@@ -1,0 +1,74 @@
+@media screen and (max-width: 943px) {
+
+    .donation {
+        height: 1453px;
+    }
+
+    .amount {
+        width: auto;
+        margin-top: 27px;
+    }
+
+    .range-container-wrapper-1000 {
+        display: flex;
+    }
+
+    .range-container {
+        width: 117%;
+        padding: 0px 10px 0 13px;
+    }
+
+    .small-circle {
+        width: 95%;
+
+    }
+
+    input[type=range] {
+        width: 98%;
+        padding: 0px 16px 0 13px;
+    }
+
+    datalist {
+        font-size: 25px;
+        margin-left: 0;
+    }
+
+    #mark2000,
+    #mark1000,
+    #mark500,
+    #mark250,
+    #mark100,
+    #mark50,
+    #mark25 {
+        margin-left: 25px;
+    }
+
+    .subscribe {
+        width: 99%;
+        margin-right: 0;
+    }
+
+    .subscribe_input {
+        width: 66%;
+    }
+
+    .text-designed {
+        margin-left: 0;
+    }
+
+    .footer-nav-list {
+        flex-direction: column;
+        margin-top: 302px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}

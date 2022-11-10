@@ -1,0 +1,114 @@
+@media screen and (max-width: 639px) {
+    body {
+        max-width: 639px;
+        margin: auto;
+    }
+
+    .header {
+        background-color: #111115;
+        height: 34px;
+        top: 0;
+        position: fixed;
+    }
+
+    .header-wrapper {
+        min-width: auto;
+        margin: 0;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .watch-wrapper {
+        margin-top: 0;
+    }
+
+    .backstage-wrapper {
+        height: 849px;
+    }
+
+    .button-table-640 {
+        margin-left: 0px;
+        margin-top: 12px;
+    }
+
+    .cards-animals-1row-640,
+    .cards-animals-2row-640 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pick-friend {
+        height: 894px;
+    }
+
+    .arrow-640 {
+        display: inline;
+    }
+
+    .layout-3-column {
+        margin: -13px 0 0 0;
+    }
+
+    .icon-steps1,
+    .icon-steps2,
+    .icon-steps3 {
+
+        width: 94px;
+    }
+
+    .square1,
+    .square2,
+    .square3 {
+        width: 95px;
+        height: 95px;
+    }
+
+    .icon-steps {
+        width: 60%;
+    }
+
+    .icon-text1,
+    .icon-text2,
+    .icon-text3 {
+        font-size: 16px;
+        width: auto;
+    }
+
+    .tools {
+        gap: 0;
+    }
+
+    .footer-nav-list {
+        flex-direction: column;
+        margin-top: -39px;
+    }
+
+    .social-nav-list {
+
+        margin-right: 0;
+    }
+
+    #button-donate {
+        margin-top: 31px;
+        width: auto;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

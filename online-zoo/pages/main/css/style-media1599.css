@@ -1,0 +1,118 @@
+@media screen and (max-width: 1599px) {
+    body {
+        max-width: 1599px;
+        margin: auto;
+    }
+
+    .header-designed {
+        margin-left: 0;
+    }
+
+    .header-wrapper {
+        margin: 9px 0px 0 75px;
+    }
+
+    .layout-2-column {
+        flex-direction: column;
+        margin: 140px 0 0 0;
+    }
+
+    .text-backstage {
+        margin: 0;
+    }
+
+    .backstage-wrapper {
+        height: auto;
+    }
+
+    .cards-animals-1row-640,
+    .cards-animals-2row-640 {
+        display: none;
+    }
+
+    .cards-animals-1row,
+    .cards-animals-2row {
+        display: none;
+    }
+
+    .cards-animals-1row-1000,
+    .cards-animals-2row-1000 {
+        display: flex;
+        align-items: baseline;
+    }
+
+    .prev,
+    .next {
+        height: 33px;
+        width: 33px;
+
+    }
+
+    .panda,
+    .eagles,
+    .gorillas,
+    .cheetahs,
+    .penguins,
+    .alligators {
+        width: 294px;
+    }
+
+    .image {
+        width: 100%;
+    }
+
+    .layout-3-column {
+        width: auto;
+
+    }
+
+
+    .layout-4-column {
+        margin: 11px 0 0 0;
+    }
+
+    .cards-testimonials {
+        width: auto;
+    }
+
+
+    .subscribe {
+        margin-right: 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

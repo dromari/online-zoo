@@ -1,0 +1,345 @@
+@media screen and (max-width: 320px) {
+    body {
+        max-width: 320px;
+        margin: auto;
+    }
+
+
+    .header {
+        position: fixed;
+    }
+
+    .wrapper-body {
+        max-width: 320px;
+    }
+
+    .header-wrapper {
+        min-width: 320px;
+        margin: 0
+    }
+
+    .logo {
+        margin-left: 10px;
+    }
+
+    .href-logo-640 {
+        display: flex;
+        margin-left: 0;
+    }
+
+    .header-navigation-mobile {
+        padding-bottom: 40px;
+    }
+
+    .watch-wrapper {
+        height: 187px;
+        background-image: url(../../../assets/images/320-Giant\ Panda.png);
+        background-repeat: no-repeat;
+        margin-top: 34px;
+
+    }
+
+    .watch-online {
+        margin: 22px 38px 0 0;
+    }
+
+    .circle {
+        width: 119.09px;
+        height: 119.09px;
+        border-radius: 59.545px;
+    }
+
+    .table-watch {
+        font-size: 28px;
+        margin: 16px 0 0 17px;
+
+    }
+
+    .button-table-640 {
+        display: none;
+    }
+
+
+    .button-table-320 {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        width: 295px;
+        height: 54px;
+        background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+        border-radius: 25px;
+        color: #FFFFFF;
+        font-family: 'Roboto-Medium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22.4px;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        margin: 20px 0 20px 10px;
+    }
+
+    .layout-2-column {
+        margin: 0;
+        gap: 0;
+    }
+
+    .backstage-wrapper {
+        background-image: url(../../../assets/images/320-flower_foto1\ \(1\).jpg);
+        background-repeat: no-repeat;
+        background-position: right;
+        margin-top: 0;
+        height: auto;
+        background-position-y: 14%;
+    }
+
+    .text-backstage {
+        margin-left: 0px;
+    }
+
+    h2 {
+        font-size: 24px;
+        margin: 11px 0 0 10px;
+    }
+
+    .roboto-regular-16-400-backstage {
+        margin: 10px 1px 0 12px;
+    }
+
+    .roboto-regular-24-backstage {
+        margin: 21px 0 0 12px;
+    }
+
+    .roboto-regular-16-400-backstage2 {
+        margin: 9px 10px 0 10px;
+    }
+
+    .pets {
+        display: none;
+    }
+
+    .pets-320 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .pets-wrapper {
+        width: 100%;
+        background-image: url(../../../assets/images/320-palm_foto.jpg), url(../../../assets/images/320-strelitzia.jpg);
+    }
+
+    .cards-animals {
+        display: flex;
+        flex-direction: column;
+        gap: 19px;
+        margin-top: 41px;
+    }
+
+    .cards-animals-1row-640,
+    .cards-animals-2row-640 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pets-blok {
+        margin-bottom: 0;
+    }
+
+    #button-slider {
+        margin-top: 0;
+        margin-bottom: 62px;
+    }
+
+    .pick-friend {
+        height: 1082px;
+    }
+
+    .pick-friends-background {
+        margin: 19px 10px -79px 10px;
+        height: 1042px;
+        padding-bottom: 0px;
+    }
+
+    .pick-h2 {
+        font-size: 24px;
+        margin-top: 20px;
+        margin-left: 1px;
+    }
+
+    .roboto-regular-24 {
+        display: none;
+    }
+
+    .roboto-regular-24-320-1,
+    .roboto-regular-24-320-2,
+    .roboto-regular-24-320-3 {
+        font-family: 'Roboto-Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 120%;
+        color: #333B41;
+        display: flex;
+
+    }
+
+    .roboto-regular-24-320-1 {
+        margin: 46px 0 -18px -20px;
+    }
+
+    .roboto-regular-24-320-2 {
+        margin-left: -11px;
+    }
+
+    .roboto-regular-24-320-3 {
+        margin: -17px 0 0 75px;
+    }
+
+    .how-is-works-wrapper {
+        margin-top: -6px;
+    }
+
+    .roboto-regular-16-500 {
+        display: none;
+    }
+
+    .pick-roboto-regular-16-400 {
+        display: none;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    .layout-3-column {
+        display: flex;
+        margin: -5px 0 0 25px;
+    }
+
+    .tools {
+        display: block;
+        gap: 16px;
+    }
+
+    .arrow-640 {
+        display: none;
+    }
+
+    .arrow-320 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 159px;
+        margin-top: -67px;
+    }
+
+    .icon-text1,
+    .icon-text2,
+    .icon-text3 {
+        margin-top: 9px;
+    }
+
+    .icon-steps3 {
+        margin-top: 13px;
+        margin-left: -4px;
+    }
+
+    .square1,
+    .square2,
+    .square3 {
+        width: 168px;
+        height: 168px;
+    }
+
+    .square1 {
+        margin-right: 0;
+    }
+
+    .square2 {
+        margin-top: 23px;
+    }
+
+    .icon-text1,
+    .icon-text2,
+    .icon-text3 {
+        font-size: 16px;
+        width: 168px;
+    }
+
+    #button-how-is-work {
+        margin-top: 21px;
+    }
+
+    .testimonials {
+        margin-top: 3px;
+    }
+
+    .test-wrapper {
+        background-image: url(../../../assets/images/320-leav_foto.jpg);
+        background-position-y: 106%;
+    }
+
+    .layout-4-column {
+        gap: 15px;
+        margin: -6px 13px 27px 12px;
+    }
+
+    #button-testimonials {
+        margin-top: 4px;
+        margin-bottom: 59px;
+    }
+
+    .footer-content {
+        display: none;
+    }
+
+    .footer-content-640 {
+        display: none;
+    }
+
+    .footer-content-320 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social-nav-list {
+        flex-direction: row;
+        gap: 18px;
+        margin-left: 19px;
+        margin-top: 12px;
+        margin-right: 8px;
+    }
+
+
+    .logo-text {
+        display: flex;
+        font-family: 'Roboto-Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 120%;
+        color: #FFFFFF;
+    }
+
+    #button-donate {
+        margin-top: 5px;
+        margin-left: -2px;
+        width: 298px;
+    }
+
+    .text-designed {
+        line-height: 114%;
+        margin: 16px 0 0 85px;
+        font-size: 15px;
+        line-height: 104%;
+    }
+
+    .footer-nav-list {
+        margin-top: 20px;
+        gap: 30px;
+        flex-direction: row;
+    }
+
+}

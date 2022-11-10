@@ -1,0 +1,135 @@
+@media screen and (max-width: 639px) {
+
+    .header {
+        background-color: #111115;
+        height: 34px;
+        top: 0;
+        position: inherit;
+    }
+
+    .header-wrapper {
+        min-width: auto;
+        margin: 0;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .donation-wrapper {
+        margin-top: 0;
+    }
+
+    .donation-background {
+        width: auto;
+        margin: -6px 20px 0 20px;
+        height: 880px;
+    }
+
+    .donation {
+        height: 1531px;
+    }
+
+    .donation-section {
+        height: 590px;
+    }
+
+    .donation-wrapper {
+        background-size: cover;
+        margin-top: 0;
+    }
+
+    .pick-h2 {
+        font-size: x-large;
+    }
+
+    .pick-friends-text-640 {
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+
+    }
+
+    .roboto-regular-24-pick {
+        font-size: 13px;
+    }
+
+    .amount {
+        width: 100%;
+        margin-top: 11px;
+    }
+
+    .range-container {
+        width: 90%;
+
+    }
+
+    input[type=range] {
+
+        margin-left: 10px;
+        padding: 0px 0px 0 23px;
+    }
+
+    .range-container-wrapper-640 {
+
+        justify-content: center;
+    }
+
+    .footer-nav-list {
+        flex-direction: column;
+        margin-top: -39px;
+    }
+
+    .layout-3-column {
+        flex-direction: column;
+        margin-top: 0;
+        width: auto;
+    }
+
+
+    .pick-roboto-regular-16-400 {
+        text-align: center;
+    }
+
+    #tickmarks-640 {
+        display: flex;
+
+        margin-left: 6px;
+        margin-right: 11px;
+        margin-top: 6px;
+        justify-content: center;
+    }
+
+    #mark500 {
+        margin-left: 0;
+    }
+
+    #mark250 {
+        margin-left: 0;
+    }
+
+    #mark100 {
+        margin-left: 0;
+    }
+
+    #mark50 {
+        margin-left: 0;
+    }
+
+    #mark25 {
+        margin-left: 0;
+    }
+
+    .three-column {
+        margin-left: 0;
+    }
+
+    .social-nav-list {
+
+        margin-right: 0;
+    }
+
+    #button-donate {
+        margin-top: 31px;
+        width: auto;
+
+    }
+}
