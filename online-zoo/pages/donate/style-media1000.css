@@ -1,0 +1,223 @@
+@media screen and (max-width: 1000px) {
+    body {
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    .wrapper-body {
+        max-width: 1000px;
+    }
+
+    .header {
+        background-color: #111115;
+    }
+
+    .header-wrapper {
+        /*min-width: 940px;
+        margin: 0;
+        margin-right: 30px;
+        margin-left: 30px;*/
+        margin: 10px 30px 0 30px;
+    }
+
+    .header-nav-list {
+        gap: 48px;
+    }
+
+    .header-designed {
+        margin-left: 257px;
+    }
+
+    .main {
+        max-width: 1000px;
+    }
+
+    .donation-wrapper {
+        height: 390px;
+        background-position-x: 29%;
+    }
+
+    .donation {
+        height: 1335px;
+    }
+
+    .h3-donat1 {
+        margin: 40px 130px 0 30px;
+    }
+
+    .roboto-regular-16-500-donat {
+        margin: 31px 43px 0 31px;
+    }
+
+    .h3-donat2 {
+        margin-left: 30px;
+    }
+
+    .amount {
+        width: 810px;
+        margin-top: 27px;
+    }
+
+    .range-wrap-1000 {
+        --left: 65%;
+        position: relative;
+        /* display: block;*/
+        height: 35px;
+        max-width: 100%;
+        /*overflow: hidden;*/
+        /* resize: horizontal;*/
+        /* Для проверки адаптивности */
+        z-index: 5;
+    }
+
+    .range-wrap-1000::before,
+    .range-wrap-1000::after {
+        content: '';
+        will-change: padding-left, padding-right;
+        position: absolute;
+        z-index: -1;
+        /* top: 0;
+        left: 0;*/
+        display: block;
+        height: 35px;
+        width: 100%;
+        box-sizing: border-box;
+        background-position: 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 5px 50%;
+        background-repeat: no-repeat;
+        background-clip: content-box;
+        transition: 0.3s linear;
+        pointer-events: none;
+        margin-top: -5px;
+    }
+
+    .range-wrap-1000::before {
+        padding-left: var(--left, 0%);
+        background-image: radial-gradient(circle at 8px 50%, #FFEE2E 5px, #fff0 6px),
+            radial-gradient(circle at calc(16.66666666666667% + (16px / 3)) 50%, #FFEE2E 5px, #fff0 6px),
+            radial-gradient(circle at calc(33.33333333333333% + (16px / 6)) 50%, #FFEE2E 5px, #fff0 6px),
+            radial-gradient(circle at calc(50% - 0px) 50%, #FFEE2E 5px, #fff0 6px),
+            radial-gradient(circle at calc(66.66666666666667% - (16px / 6)) 50%, #FFEE2E 5px, #fff0 6px),
+            radial-gradient(circle at calc(83.33333333333333% - (16px / 3)) 50%, #FFEE2E 5px, #fff0 6px),
+            radial-gradient(circle at calc(100% - 8px) 50%, #FFEE2E 5px, #fff0 6px),
+            linear-gradient(#72828E, #72828E);
+        background-size: auto, auto, auto, auto, auto, auto, auto, calc(100% - 10px) 2px;
+    }
+
+    .range-wrap-1000::after {
+        padding-right: calc(100% - var(--left, 0%));
+        background-image: radial-gradient(circle at 8px 50%, #FFEE2E 5px, #fff0 6px),
+            radial-gradient(circle at calc(16.66666666666667% + (16px / 3)) 50%, #FFEE2E 5px, #fff0 6px),
+            radial-gradient(circle at calc(33.33333333333333% + (16px / 6)) 50%, #FFEE2E 5px, #fff0 6px),
+            radial-gradient(circle at calc(50% - 0px) 50%, #FFEE2E 5px, #fff0 6px),
+            radial-gradient(circle at calc(66.66666666666667% - (16px / 6)) 50%, #FFEE2E 5px, #fff0 6px),
+            radial-gradient(circle at calc(83.33333333333333% - (16px / 3)) 50%, #FFEE2E 5px, #fff0 6px),
+            radial-gradient(circle at calc(100% - 8px) 50%, #FFEE2E 5px, #fff0 6px),
+            linear-gradient(rgba(255, 255, 255, 0.0), #72828E);
+        background-size: auto, auto, auto, auto, auto, auto, auto, calc(100% - 10px) 4px;
+    }
+
+    .range-text {
+        top: auto;
+    }
+
+    .range-wrap {
+        display: none;
+    }
+
+    .range-wrap-1000 {
+        display: flex;
+    }
+
+    .range-wrap-640 {
+        display: none;
+    }
+
+
+    #tickmarks {
+        display: none;
+    }
+
+    #tickmarks-1000 {
+        display: flex;
+    }
+
+    #tickmarks-640 {
+        display: none;
+    }
+
+    datalist {
+        margin-right: 0;
+        margin-left: -56px;
+    }
+
+    .amount-input-wrapper {
+        margin-top: 47px;
+    }
+
+    .donation-background {
+        width: auto;
+        height: 918px;
+        margin: 0 30px 0 30px;
+    }
+
+    .donation-section {
+        width: auto;
+    }
+
+    .pick-h2 {
+        margin-top: -13px;
+        margin-left: -15px;
+    }
+
+    .pick-friends-text {
+        margin-top: -18px;
+        margin-left: -4px;
+    }
+
+    .layout-3-column {
+
+        margin-top: 83px;
+    }
+
+    .footer-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .footer-navigation {
+        width: 142%;
+    }
+
+    .social {
+        margin-left: 31px;
+        margin-top: 38px;
+    }
+
+    form {
+        margin-left: 0;
+    }
+
+    .subscribe {
+        margin-right: 166px;
+    }
+
+    .text-designed {
+        margin-bottom: 30px;
+    }
+
+    .arrow-640 {
+        display: none;
+    }
+
+    .footer-content-640 {
+        display: none;
+    }
+
+    .three-column-320 {
+        display: none;
+    }
+
+    pick-friends-text-320 {
+        display: none;
+    }
+}

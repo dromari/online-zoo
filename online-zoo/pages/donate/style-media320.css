@@ -1,0 +1,301 @@
+@media screen and (max-width: 320px) {
+    body {
+        max-width: 320px;
+        margin: auto;
+    }
+
+    .wrapper-body {
+        max-width: 320px;
+    }
+
+    .header {
+        position: fixed;
+    }
+
+    .header-wrapper {
+        min-width: 320px;
+        margin: 0
+    }
+
+    .logo {
+        margin-left: 10px;
+    }
+
+    .href-logo-640 {
+        display: flex;
+        margin-left: 0;
+    }
+
+    .header-navigation-mobile {
+        padding-bottom: 40px;
+    }
+
+    .header__burger {
+        width: 24px;
+    }
+
+    .main {
+        max-width: 320px;
+    }
+
+    .donation-wrapper {
+        height: 187px;
+        background-image: url(../../assets/images/320-panda_donate-bg.png);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-size: auto;
+        margin-top: 34px;
+    }
+
+    .backstage-wrapper {
+        height: 636px;
+    }
+
+    .h3-donat1 {
+        margin: 30px 0 0 10px;
+    }
+
+    .roboto-regular-16-500-donat {
+        margin: 20px 14px 0 10px;
+    }
+
+    .h3-donat2 {
+        margin-left: 10px;
+        margin-top: 28px;
+        font-size: 24px;
+    }
+
+    .donation-background {
+        height: 591px;
+        margin: 29px 10px 0 10px;
+    }
+
+    .pick-h2 {
+        font-size: 24px;
+        margin-top: -24px;
+        margin-left: -1px;
+    }
+
+    .roboto-regular-24-pick {
+        font-size: 16px;
+    }
+
+    .pick-friends-text-320 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 11px
+    }
+
+    .pick-friends-text-640 {
+        display: none;
+    }
+
+    .layout-3-column {
+        display: flex;
+        align-items: center;
+        width: auto;
+        margin-top: 13px;
+        flex-direction: row;
+    }
+
+    .one-column {
+        display: none;
+    }
+
+    .two-column {
+        display: none;
+
+    }
+
+    .three-column {
+        display: none;
+    }
+
+    .one-column-320 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 32px;
+        width: 90px;
+        gap: 13px;
+        align-items: center;
+        margin-left: 5px;
+    }
+
+    .img-one-column {
+        width: 47px;
+        margin-left: -12px;
+    }
+
+    .two-column-320 {
+        display: flex;
+        margin-top: 15px;
+        width: 20px;
+    }
+
+    .three-column-320 {
+        display: flex;
+        width: 160px;
+        margin-left: 25px;
+    }
+
+    .pick-roboto-regular-16-400-1 {
+        font-size: 9px;
+        margin: -7px 0 0 -10px;
+    }
+
+    .amount {
+        width: 100%;
+
+    }
+
+    .scroll {
+        max-width: 300px;
+        margin-top: -9px;
+    }
+
+    .pick-roboto-regular-16-400 {
+        margin: 0;
+        margin-top: -7px;
+        text-align: inherit;
+    }
+
+    input[type=range] {
+        width: 86%;
+        padding: 0;
+        margin-left: 20px;
+        height: 14px;
+        align-items: center;
+
+    }
+
+    .small-circle {
+        width: 88%;
+        margin-left: 18px;
+
+        margin-top: 0;
+    }
+
+    .yellow-circle {
+        width: 5px;
+        height: 5px;
+    }
+
+    .range-container {
+        margin-top: 16px;
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
+
+    .range-container-wrapper-1000 {
+        display: none;
+    }
+
+    .range-container-wrapper {
+        display: none;
+    }
+
+    input[type=range]::-webkit-slider-runnable-track {
+        width: auto;
+    }
+
+    input[type=range]::-webkit-slider-thumb {
+        display: flex;
+        -webkit-appearance: none;
+        background: #FFEE2E;
+        background-clip: content-box;
+        border: 1px double #FE9013;
+        margin-top: -5px;
+        padding: 5px;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        cursor: pointer;
+        outline: 1px solid #FE9013;
+        outline-offset: 5px;
+    }
+
+    datalist {
+        font-size: 13px;
+    }
+
+    #tickmarks-640 {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 6px;
+        margin-right: 11px;
+        margin-top: 6px;
+    }
+
+
+    .amount-input-wrapper {
+        margin-top: 25px;
+    }
+
+    .amount-input-radio {
+        margin-top: 24px;
+        margin-left: -22px;
+    }
+
+    .roboto-medium-16-400 {
+        font-size: 15.8px;
+        margin-top: 29px;
+        margin-left: -3px;
+    }
+
+    .donation {
+        height: 1145px;
+    }
+
+    .footer-content {
+        display: none;
+    }
+
+    .footer-content-640 {
+        display: none;
+    }
+
+    .footer-content-320 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social-nav-list {
+        flex-direction: row;
+        gap: 18px;
+        margin-left: 19px;
+        margin-right: 8px;
+    }
+
+    .logo-text {
+        display: flex;
+        font-family: 'Roboto-Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 120%;
+        color: #FFFFFF;
+    }
+
+    #button-donate {
+        margin-top: 5px;
+        margin-left: -2px;
+        width: 298px;
+    }
+
+    .text-designed {
+        line-height: 114%;
+        margin: 16px 0 0 85px;
+        font-size: 15px;
+        line-height: 104%;
+    }
+
+    .footer-nav-list {
+        flex-direction: row;
+        margin-top: 20px;
+        gap: 30px;
+    }
+}

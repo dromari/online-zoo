@@ -1,0 +1,95 @@
+@media screen and (max-width: 999px) {
+    body {
+        max-width: 999px;
+        margin: auto;
+    }
+
+    .backstage-wrapper {
+        height: auto;
+    }
+
+    .layout-2-column {
+        flex-direction: column;
+    }
+
+    .icon-steps1,
+    .icon-steps2,
+    .icon-steps3 {
+
+        width: 145px;
+    }
+
+    .layout-3-column {
+        width: auto;
+    }
+
+    .square1,
+    .square2,
+    .square3 {
+        width: 140px;
+        height: 140px;
+    }
+
+    .subscribe {
+        width: 99%;
+        margin-right: 0;
+
+    }
+
+    .subscribe_input {
+        width: 66%;
+    }
+
+    .text-designed {
+        margin-left: 0;
+    }
+
+    .footer-nav-list {
+        flex-direction: column;
+        margin-top: 302px;
+    }
+
+    .panda,
+    .eagles,
+    .gorillas,
+    .cheetahs,
+    .penguins,
+    .alligators {
+        width: 32%;
+    }
+
+    .image {
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
